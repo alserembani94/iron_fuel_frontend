@@ -1,0 +1,33 @@
+.card {
+  box-shadow: 0 2px 6px black;
+  border: none;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.card img {
+  border-radius: 0;
+  object-fit: cover;
+  height: 100%;
+}
+
+.cart-items .card {
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+}
+
+.cart-items .card-body {
+  flex-grow: 1;
+}
+
+.cart-items button.btn-danger {
+  height: 40px;
+  align-self: center;
+}
+
+.homepage-container {
+  background-color: black;
+  padding: 2rem;
+  text-align: center;
+}
